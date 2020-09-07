@@ -2,11 +2,13 @@
 
 To configure VSCode to work with Go you will need to install a few things.
 
-1. Open VSCode and then the extensions tab on the left (`Ctrl + Shift + X`).
+1. Open VSCode.
 
-2. Search for `Go` and install the first extension (by Microsoft).
+2. In VSCode, open the Extensions tab on the left (`Ctrl + Shift + X`).
 
-3. Press `Ctrl + Shift + P`, search for `Go: Install/Update Tools`.
+3. Search for `Go` and install the first extension (by Microsoft).
+
+4. Press `Ctrl + Shift + P`, search for `Go: Install/Update Tools`.
 
 ![Install Tools Command](content/1.png)
 
