@@ -16,4 +16,4 @@ export PATH="$PATH:$GOPATH/bin"
 
 4. Close and re-open any terminal windows. If you are working over `ssh` you can use the command `source ~/.bashrc`.
 
-5. Verify your installation with the command `go version`. The version **must be `1.13`**.
+5. Verify your installation with the command `go version`. The version **will be `1.13`**.
