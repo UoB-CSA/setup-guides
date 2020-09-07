@@ -2,6 +2,8 @@
 
 ## Setup instructions for Ubuntu 20.04 LTS (focal)
 
+**Note: this is for Ubuntu 20.04 only. For older Ubuntu versions, use the "Setup instructions for other Linux installations" guide.**
+
 1. Run the following commands in terminal. If bash is not your default shell, subsitute `.bashrc` for the appropriate file (e.g. `.zshrc` for zsh).
 
 ```bash
@@ -9,6 +11,7 @@ sudo apt-get update
 sudo apt-get install golang=2:1.13~1ubuntu2 --yes
 echo 'export GOPATH="$HOME/go"' >> ~/.bashrc
 echo 'export PATH="$PATH:$GOPATH/bin"' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 2. Verify that `go version` shows a go installation of version `>=1.13`.
@@ -22,6 +25,7 @@ echo 'export PATH="$PATH:$GOPATH/bin"' >> ~/.bashrc
 sudo pacman -S go
 echo 'export GOPATH="$HOME/go"' >> ~/.bashrc
 echo 'export PATH="$PATH:$GOPATH/bin"' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 2. Verify that `go version` shows a go installation of version `>=1.13`.
