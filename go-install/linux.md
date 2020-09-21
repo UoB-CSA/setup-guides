@@ -1,10 +1,15 @@
 # Personal Linux setup instructions
 
-## Setup instructions for Ubuntu 20.04 LTS (focal)
+1. Check your Linux version by running `lsb_release -a` in the terminal.
+
+2. If you have Ubuntu **20.04** use option 1, if you have arch Linux use option 2, for any other version (including Ubuntu 19.04/18.04/16.04) use option 3.
+
+
+## Option 1: Setup instructions for Ubuntu 20.04 LTS (focal)
 
 **Note: this is for Ubuntu 20.04 only. For older Ubuntu versions, use the "Setup instructions for other Linux installations" guide.**
 
-1. Run the following commands in terminal. If bash is not your default shell, subsitute `.bashrc` for the appropriate file (e.g. `.zshrc` for zsh).
+1. Run the following commands in terminal. If bash is not your default shell, substitute `.bashrc` for the appropriate file (e.g. `.zshrc` for zsh).
 
 ```bash
 sudo apt-get update
@@ -17,9 +22,9 @@ source ~/.bashrc
 2. Verify that `go version` shows a go installation of version `>=1.13`.
 
 
-## Setup instructions for Arch Linux
+## Option 2: Setup instructions for Arch Linux
 
-1. Run the following commands in terminal. If bash is not your default shell, subsitute `.bashrc` for the appropriate file (e.g. `.zshrc` for zsh).
+1. Run the following commands in terminal. If bash is not your default shell, substitute `.bashrc` for the appropriate file (e.g. `.zshrc` for zsh).
 
 ```bash
 sudo pacman -S go
@@ -30,7 +35,7 @@ source ~/.bashrc
 
 2. Verify that `go version` shows a go installation of version `>=1.13`.
 
-## Setup instructions for other Linux installations
+## Option 3: Setup instructions for other Linux installations
 
 1. Run the following commands in terminal:
 
