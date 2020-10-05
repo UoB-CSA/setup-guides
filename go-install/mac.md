@@ -6,7 +6,7 @@
 
 3. Run and follow the prompts to install Go.
 
-4. Open your `.bashrc` file using `open ~/.bashrc` in terminal. If `~/.bashrc` does not exist, you need to use `~/.zshrc`. Add the following lines to the bottom of the file:
+4. Check with shell you are using with `echo $SHELL`. If it is `/bin/bash` open your `.bashrc` file using `open ~/.bashrc` in terminal. If it is `/bin/zsh` open your `.zshrc` using `open ~/.zshrc`. If either of these files don't exist create them using `touch ~/.bashrc` or `touch ~/.zshrc`. Add the following lines to the bottom of the file:
 
 ```
 export GOPATH="$HOME/go"
