@@ -41,7 +41,6 @@ These are some guides that we have created to help you setup your AWS instances.
 
 - Install Go on Ubuntu via Snap [video](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2020_TB-1/CONTENT_2020/tuts/InstallGoOnUbuntuViaSnap/Install_Go_on_Linux_via_Snap.mp4),[transcript](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2020_TB-1/CONTENT_2020/tuts/InstallGoOnUbuntuViaSnap/snap.htm)
 - Install Go on Linux Via a Binary Release [video](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2020_TB-1/CONTENT_2020/tuts/InstallGoOnLinuxViaABinary%20Release/Install_Go_on_Linux_via_a_binaryRelease.mp4), [transcript](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2020_TB-1/CONTENT_2020/tuts/InstallGoOnLinuxViaABinary%20Release/binary.htm)
-- Install and Configure IntelliJ Ultimate [video](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2020_TB-1/CONTENT_2020/tuts/InstallAndConfigureIntelliJUltimate2019.2/InstallandconfigureIntelliJUltimate%202019.2.mp4),[transcript](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2020_TB-1/CONTENT_2020/tuts/InstallAndConfigureIntelliJUltimate2019.2/intellij.htm)
 
 ## Debugging Help
 
