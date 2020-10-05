@@ -8,6 +8,15 @@ To help you get started here are some setup guides for Go:
 - [MacOS](go-install/mac.md)
 - [Windows](go-install/windows.md)
 
+## Working From China
+
+Commands such as `go get` will not work since `proxy.golang.org` is currently blocked in China. You can fix this by running the following commands to set up a Go module proxy:
+
+```
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
+```
+
 ## Editors
 
 There are also some setup guides for popular IDEs:
