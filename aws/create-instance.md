@@ -2,7 +2,7 @@
 
 This will help you setup an instance on AWS.
 
-1. Open the AWS console.
+1. Open the [AWS console](https://www.awseducate.com/student/s/classrooms).
 
 ![AWS Console](content/aws-console.png)
 
