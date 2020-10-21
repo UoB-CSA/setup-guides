@@ -7,6 +7,7 @@ To help you get started here are some setup guides for Go:
 - [Personal Linux PCs](go-install/linux.md)
 - [MacOS](go-install/mac.md)
 - [Windows](go-install/windows.md)
+- [AWS](go-install/aws.md)
 
 ## Working From China
 
