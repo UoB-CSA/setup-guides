@@ -20,12 +20,6 @@ When you are working on two different machines they will need to be able to comm
 
 7. Set the port range to be the port that you need to open, in the example above it is `8030`.
 
-8. In the source enter the name of the security group you are editing, this should auto-complete. You can find this at the top of the screen. In the example below it is `sg-0a22fccab082d6e64`.
+8. Set the source to be `anywhere`.
 
-![SG Name](content/security-group-name.png)
-
-9. The setup should look similar to this:
-
-![Inbound Rules](content/inbound-rules.png)
-
-10. Click "Save rules".
+9. Click "Save rules".
