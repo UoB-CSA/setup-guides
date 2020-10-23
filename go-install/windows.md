@@ -7,11 +7,9 @@
 1. Follow the [official instructions here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install WSL2. **Do not install WSL1**: some tools will not work correctly. When prompted to install a distribution of your choice, we officially recommend [Ubuntu 20.04 LTS](https://www.microsoft.com/store/apps/9n6svws3rx71).
 
 1. If you already have an existing WSL1 distribution, you can update it to use WSL2 with:
-    ```ps
-    wsl --list --verbose 
-    wsl --set-version DISTRO 2
-    ```
-    where `DISTRO` is the name of the distribution to update.
+        
+    1. `wsl --list --verbose` to print a list of WSL distributions and their versions.
+    1. `wsl --set-version DISTRO 2` to update the specified distribution.
 
 1. You can access your distribution via the start menu, e.g. Win + S, then type "Ubuntu".
 
