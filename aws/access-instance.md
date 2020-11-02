@@ -14,7 +14,7 @@ To access an instance you will need to use ssh. Linux and macOS support this in 
 
 4. **WARNING MAKE SURE YOU TYPE THIS COMMAND *EXACTLY* AS SHOWN** Set your key to have the correct permissions by running `chmod 0600 ~/.ssh/keypair.pem`. 
 
-5. Use the command `ssh ubuntu@52.90.29.156 -i ~/.ssh/keypair.pem`. Replace the IP address with your IP and `keypair.pem` with the location of the keypair you downloaded.
+5. Use the command `ssh ubuntu@52.90.29.156 -i ~/.ssh/keypair.pem`. Replace the IP address with your IP.
 
 You now have a terminal connected to your AWS instance.
 
