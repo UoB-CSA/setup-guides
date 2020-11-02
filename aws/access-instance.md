@@ -10,7 +10,7 @@ To access an instance you will need to use ssh. Linux and macOS support this in 
 
 3. Open a terminal.
 
-4. Copy the keypair to your `~/.ssh` folder using `cp keypair.pem ~/.ssh` where `keypair.pem` is the path to the downloaded keypair
+4. Copy the keypair to your `~/.ssh` folder using `cp keypair.pem ~/.ssh/keypair.pem` where `keypair.pem` is the path to the downloaded keypair
 
 4. **WARNING MAKE SURE YOU TYPE THIS COMMAND *EXACTLY* AS SHOWN** Set your key to have the correct permissions by running `chmod 0600 ~/.ssh/keypair.pem`. 
 
