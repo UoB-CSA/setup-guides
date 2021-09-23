@@ -42,6 +42,7 @@ To use Visual Studio Code:
 ## Graphical Access to WSL2 viva SSH with X forwarding (tricky, but allows you to run IntelliJ with Go plugin natively on WSL2 - facilitating all that IntelliJ goodness)
 
 1. Install XFCE, openssh-server and net-tools by running the following commands in the terminal (select default options when prompted)
+
 ```bash
 sudo apt-get update 
 sudo apt-get install xfce4
@@ -54,13 +55,13 @@ sudo apt-get install openssh-server
 sudo nano /etc/ssh/sshd_config
 ```
 
-	1. Set the port to 22:
-	
-		![Port setting](content/port.png)
+    1. Set the port to 22:
+        
+	![Port setting](content/port.png)
 
-	1. And PasswordAuthentication to Yes:
-	
-		![PasswordYes](content/password_yes.png)
+    1. And PasswordAuthentication to Yes:
+
+        ![PasswordYes](content/password_yes.png)
 
 1. Start the ssh server
 ```bash
