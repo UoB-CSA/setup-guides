@@ -90,5 +90,4 @@ source ~/.bashrc
 ```bash
 ssh -X your_WSL2_username@your_WSL2_ipaddress
 ```
-
 1. Try running a graphical program and check a window appears. 
