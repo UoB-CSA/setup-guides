@@ -41,42 +41,54 @@ To use Visual Studio Code:
 
 ## Graphical Access to WSL2 viva SSH with X forwarding (tricky, but allows you to run IntelliJ with Go plugin natively on WSL2 - facilitating all that IntelliJ goodness)
 
-1.Install XFCE, openssh-server and net-tools by running the following commands in the terminal (select default options when prompted)
-
+1. Install XFCE, openssh-server and net-tools by running the following commands in the terminal (select default options when prompted)
 ```bash
 sudo apt-get update 
 sudo apt-get install xfce4
 sudo apt install net-tools       
 sudo apt-get install openssh-server 
 ```
-2.Configure ssh server by editing the sshd_config file
-
+1. Configure ssh server by editing the sshd_config file
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```
-Set the port to 22:
+	1. Set the port to 22:
+	
+		![Port setting](content/port.png)
 
-And PasswordAuthentication to Yes:
+	1. And PasswordAuthentication to Yes:
+	
+		![PasswordYes](content/password_yes.png)
 
-3.Start the ssh server
-
+1. Start the ssh server
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```
-4.Get the IP address of your WSL2 (see screenshot) 
-
+1. Get the IP address of your WSL2 (line starting "inet") 
 ```bash
 ifconfig
 ```
 
-
-5.Configure your display for X forwarding by pasting the following into the bottom of your .bashrc file. 
+1. Configure your display for X forwarding by pasting the following into the bottom of your .bashrc file. 
 ```bash
 export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
 export LIBGL_ALWAYS_INDIRECT=1
 ```
-5.Make those changes take effect by typing
+
+1. Make those changes take effect by typing
 ```bash
 source ~/.bashrc
 ```
 
+1. Now let's get MobaXterm installed and configured on Windows 10 (MobaXterm is a free ssh client and X server application)
+	1. Download and install MobaXterm from https://mobaxterm.mobatek.net/download-home-edition.html
+	1. Set X11 remote access to full in MobaXterm global settings -> X11 tab
+		
+		![mobaxterm](content/mobaxterm.png)
+		
+1. Finally ssh with X forwarding to your WSL2 - try this in the MobaXterm shell
+```bash
+ssh -X your_WSL2_username@your_WSL2_ipaddress
+```
+
+1. Try running a graphical program and check a window appears. 
