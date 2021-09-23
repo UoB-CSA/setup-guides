@@ -48,10 +48,12 @@ sudo apt-get install xfce4
 sudo apt install net-tools       
 sudo apt-get install openssh-server 
 ```
+
 1. Configure ssh server by editing the sshd_config file
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```
+
 	1. Set the port to 22:
 	
 		![Port setting](content/port.png)
@@ -64,12 +66,14 @@ sudo nano /etc/ssh/sshd_config
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```
+
 1. Get the IP address of your WSL2 (line starting "inet") 
 ```bash
 ifconfig
 ```
 
 1. Configure your display for X forwarding by pasting the following into the bottom of your .bashrc file. 
+
 ```bash
 export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
 export LIBGL_ALWAYS_INDIRECT=1
@@ -87,7 +91,9 @@ source ~/.bashrc
 		![mobaxterm](content/mobaxterm.png)
 		
 1. Finally ssh with X forwarding to your WSL2 - try this in the MobaXterm shell
+
 ```bash
 ssh -X your_WSL2_username@your_WSL2_ipaddress
 ```
+
 1. Try running a graphical program and check a window appears. 
