@@ -51,17 +51,16 @@ sudo apt-get install openssh-server
 ```
 
 1. Configure ssh server by editing the sshd_config file
+
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```
+	1. Set the port to 22:
+ 
+		![Port setting](content/port.png)
+	1. And PasswordAuthentication to Yes:
 
-    1. Set the port to 22:
-        
-	![Port setting](content/port.png)
-
-    1. And PasswordAuthentication to Yes:
-
-        ![PasswordYes](content/password_yes.png)
+		![PasswordYes](content/password_yes.png)
 
 1. Start the ssh server
 ```bash
