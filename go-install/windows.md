@@ -55,6 +55,7 @@ sudo apt-get install openssh-server
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```
+	
 	1. Set the port to 22:
  
 		![Port setting](content/port.png)
