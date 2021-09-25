@@ -17,3 +17,16 @@ export PATH="$PATH:$GOPATH/bin"
 4. Close and re-open any terminal windows. If you are working over `ssh` you can use the command `source ~/.bashrc`.
 
 5. Verify your installation with the command `go version`. The version **will be `1.13`**.
+
+# Using IntelliJ with go plugin on lab machines
+
+IntelliJ is installed on thr lab machines. To use it, open a terminal an type:
+
+```bash
+/opt/idea/idea-IU-212.5080.55/bin/idea.sh &
+```
+
+It's just been installed so we have had little time for testing. It should "find" go automatically and configure itself. It may locate a later version of go than that specified above (1.15.14). This is untested with this year's crousework, but should work. If you want to specify the above version, select:
+* File->Settings->Languages & Frameworks->Go->GOROOT
+
+and edit appropriately.
