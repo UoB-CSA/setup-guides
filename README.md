@@ -26,7 +26,7 @@ There are also some setup guides for popular IDEs:
 
 ## Using AWS
 
-You should have received an email from AWS Educate to setup your account. Complete the application to get access to your account and $50 of credit.
+You will receive an email from AWS Academy to setup your account. Complete the application to get access to your account and $100 of credit.
 
 **It is important that you look after this credit! Once it's gone it's gone! Don't run instances when you aren't using them.**
 
