@@ -22,6 +22,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 There are also some setup guides for popular IDEs:
 
 - [VSCode](editors/vscode.md)
+- [IntelliJ Ultimate with Go plugin](https://www.jetbrains.com/help/idea/go-plugin.html)
 
 ## Using AWS
 
