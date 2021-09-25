@@ -32,7 +32,8 @@ You will receive an email from AWS Academy to setup your account. Complete the a
 
 We advise that while you are testing your implementation you use a t2.micro instance. When you want to run benchmarks on your Game of Life coursework you should use a c4.xlarge instance. **Do not just use a c4.xlarge for regular development and testing, you will likely run out of credit if you do!**
 
-These are some guides that we have created to help you setup your AWS instances.
+These are some guides that we have created to help you setup your AWS instances. (NOTE thises are out of date and will me updated in the next 2 weeks)
+
 
 - [Creating an instance](aws/create-instance.md)
 - [Accessing an instance](aws/access-instance.md)
