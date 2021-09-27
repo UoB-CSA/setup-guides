@@ -26,6 +26,8 @@ IntelliJ is installed on thr lab machines. To use it, open a terminal an type:
 /opt/idea/idea-IU-212.5080.55/bin/idea.sh &
 ```
 
+The licence server is located here: http://ls-jetbrains.bris.ac.uk:8080
+
 It's just been installed so we have had little time for testing. It should "find" go automatically and configure itself. It may locate a later version of go than that specified above (1.15.14). This is untested with this year's crousework, but should work. If you want to specify the above version, select:
 * File->Settings->Languages & Frameworks->Go->GOROOT
 
