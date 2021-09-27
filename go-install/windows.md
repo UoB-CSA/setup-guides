@@ -66,7 +66,7 @@ sudo nano /etc/ssh/sshd_config
 
 * Start the ssh server
 ```bash
-sudo nano /etc/ssh/sshd_config
+sudo service ssh start
 ```
 
 * Get the IP address of your WSL2 (line starting "inet") 
