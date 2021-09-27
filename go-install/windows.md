@@ -69,6 +69,12 @@ sudo nano /etc/ssh/sshd_config
 sudo service ssh start
 ```
 
+if you have a problem with ssh keys try typing:
+```bash
+sudo ssh-keygen -A
+```
+
+
 * Get the IP address of your WSL2 (line starting "inet") 
 ```bash
 ifconfig
@@ -78,6 +84,18 @@ ifconfig
 ```bash
 export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
 export LIBGL_ALWAYS_INDIRECT=1
+```
+
+If you have problems with X forwarding try replacing:
+
+```bash
+export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
+```
+
+with:
+
+```bash
+export DISPLAY=:0
 ```
 
 * Make those changes take effect by typing
