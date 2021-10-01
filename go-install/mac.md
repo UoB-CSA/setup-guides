@@ -10,7 +10,7 @@
 
 ```
 export GOPATH="$HOME/go"
-export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 ```
 
 5. Save the file and exit.
