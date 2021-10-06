@@ -21,3 +21,12 @@ You now have a terminal connected to your AWS instance.
 ## Coping files
 
 The best way to transfer files between your local machine and the instance is to use a git repo for your work and clone the repo to the AWS instance. To learn how to use git follow [this guide](https://www.ole.bris.ac.uk/bbcswebdav/users/csxdb/pub/git/index.html).
+
+Alternatively, consider using Filezilla:
+
+1.	Download and install FileZilla on your local machine
+2.	Open the menu File -> Site Manager
+3.	Click on New site, select SFTP as Protocol, fill in Host with your AWS Instance IP and Port with 22
+4.	Select Key file as Logon Type, fill in User and Keyfile with ec2-user and your pem key
+5.	Connect
+
