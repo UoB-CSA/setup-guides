@@ -2,40 +2,52 @@
 
 This will help you setup an instance on AWS.
 
-1. Open the [AWS console](https://www.awseducate.com/student/s/classrooms).
+* Log into Amazon Academy using the email you were sent and click "AWS Academy Learner Lab - Foun..." (magenta box in image):
 
-![AWS Console](content/aws-console.png)
+<img src="content/aws1.png" alt="drawing" width="640"/>
 
-2. Search for ec2 and select it.
+* Click "Modules" (drawn around by hand):
 
-![AWS Console EC2 Search](content/aws-console-ec2.png)
+<img src="content/aws2.png" alt="drawing" width="640"/>
 
-3. Click "Launch Instance".
+* Click "Learner Lab - Foundational Services"
 
-![Launch Instance Button](content/launch-1.png)
+<img src="content/aws3.png" alt="drawing" width="640"/>
 
-4. Search for "Ubuntu" and select "Ubuntu Server 20.04". Keep x86 selected.
+* Click "Start Lab"
 
-![Ubuntu selection](content/launch-ubuntu.png)
+<img src="content/aws4.png" alt="drawing" width="640"/>
 
-5. You now need to select an instance type. If you are working on labsheets or just testing your coursework, use a t2.micro instance. If you are benchmarking your distributed system use a c4.xlarge instance. Once you have chosen the instance select "next".
+* Click the (now green not red) AWS link (drawn around by hand):
 
-6. Most settings on this page **do not** need to be changed, the only one you should worry about is the number of instances to start. Once this has been set, select "next".
+<img src="content/aws5.png" alt="drawing" width="640"/>
+
+* Click Launch a virtual machine With EC2 (drawn around by hand):
+
+<img src="content/aws6.png" alt="drawing" width="640"/>
+
+* Select Amazon Linux 2 AMI (HVM):
+
+<img src="content/aws7.png" alt="drawing" width="640"/>
+
+* You now need to select an instance type. If you are working on labsheets or just testing your coursework, use a t2.micro instance. If you are benchmarking your distributed system use a c4.xlarge instance. Once you have chosen the instance select "next".
+
+* Most settings on this page **do not** need to be changed, the only one you should worry about is the number of instances to start. Once this has been set, select "next".
 
 ![Number of instances](content/number-instances.png)
 
-7. Select "next" on the storage section. You do not need to change any settings here.
+* Select "next" on the storage section. You do not need to change any settings here.
 
-8. Add a tag, choose something that will help you identify the instance in the future, for example a lab name.
+* Add a tag, choose something that will help you identify the instance in the future, for example a lab name.
 
 ![Tags](content/tag.png)
 
-9. Leave the security group settings as default and select "review and launch".
+* Leave the security group settings as default and select "review and launch".
 
-10. Now click "launch". This will open a popup box to set the keypair. If you have already got a keypair setup select it, **make sure you have the key downloaded somewhere**. If you cannot find the pre-existing key or do not already have one setup, create one and download it. **Make sure you keep it safe. If you lose it you will not be able to access your instances.**
+* Now click "launch". This will open a popup box to set the keypair. If you have already got a keypair setup select it, **make sure you have the key downloaded somewhere**. If you cannot find the pre-existing key or do not already have one setup, create one and download it. **Make sure you keep it safe. If you lose it you will not be able to access your instances.**
 
-11. Now click "launch instances". This will start your instances.
+* Now click "launch instances". This will start your instances.
 
-12. Follow the [next guide](access-instance.md) to get access to your instance.
+* Follow the [next guide](access-instance.md) to get access to your instance.
 
-13. Once you have access you will need to install Go by following option 1 in [this guide](../go-install/linux.md).
+* Once you have access you will need to install Go by following option 1 in [this guide](../go-install/aws.md).
