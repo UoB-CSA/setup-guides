@@ -1,6 +1,6 @@
 # Creating an AWS Instance 
 
-This will help you setup an instance on AWS.
+This will help you setup an instance on AWS (**Just ingore, click OK on pop-ups pertaining to budget).**
 
 * Log into Amazon Academy using the email you were sent and click "AWS Academy Learner Lab - Foun..." (magenta box in image):
 
