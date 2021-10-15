@@ -30,3 +30,6 @@ Alternatively, consider using Filezilla:
 4.	Select Key file as Logon Type, fill in User and Keyfile with ec2-user and your pem key
 5.	Connect
 
+## Setting a desktop environment with AWS instance and Amazon Linux
+
+Amazon have published [this handy guide](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-2-install-gui/)
