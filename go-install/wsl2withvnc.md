@@ -12,7 +12,7 @@
 
 ## Step 1: Install a Desktop Environment
 
-For this particular post, we will install the XFCE desktop environment. It is fast, stable, and easy to use.
+First, we will install the XFCE desktop environment. It is fast, stable, and easy to use.
 
 Open Ubuntu 20.04 in WSL2 and execute the following command to update your package index:
 
@@ -61,7 +61,7 @@ Verify:
 
 After setting up the password, you will get a prompt to set a View-Only password. That means anybody who accesses the VNC server with a view-only password will not be able to VNC desktop with either Mouse or Keyboard.
 
-For this particular post, we won’t set up a view-only password. I will just type N and hit Enter.
+We won’t set up a view-only password. I will just type N and hit Enter.
 
 ```bash
 Would you like to enter a view-only password (y/n)? N
@@ -150,8 +150,8 @@ Use xtigervncviewer -SecurityTypes VncAuth -passwd /home/edxd/.vnc/passwd :1 to 
 
 The above command launches a VNC server instance on port 5901.
 
-*Why we used -localhost no
-*By default, TigerVNC accepts connection only from 127.0.0.1 or localhost, for security reasons. Since we’re using WSL2, which has its own ip address we need to add this extra argument.
+* Why we used -localhost no
+* By default, TigerVNC accepts connection only from 127.0.0.1 or localhost, for security reasons. Since we’re using WSL2, which has its own ip address we need to add this extra argument.
 
 Let’s test the VNC server.
 
@@ -159,7 +159,7 @@ Let’s test the VNC server.
 
 Launch your VNC Client (or VNC Viewer) application on your local machine and connect to the VNC server using server_ip_address:1 or server_ip_address:5901.
 
-In my case, I will use 172.28.227.198:1, and my VNC Client is Real VNC Viewer, but try TigerVNC client first.
+In my case, I will use 172.28.227.198:1, and my VNC Client is Real VNC Viewer, but you should try TigerVNC client first.
 
 <img src="content/startxfce4_vnc.png" alt="drawing" width="640"/>
 
@@ -170,3 +170,7 @@ Close the VNC client desktop session and kill the VNC instance on the server usi
 ```bash
 vncserver -kill :1
 ```
+
+# Credit
+
+This guide is based on [https://bytexd.com/how-to-install-configure-vnc-server-on-ubuntu-20-04/](https://bytexd.com/how-to-install-configure-vnc-server-on-ubuntu-20-04/)
