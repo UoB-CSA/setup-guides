@@ -8,7 +8,7 @@
 
 # To long to read - watch the video
 
-[Assocaited Video Tutorial](https://web.microsoftstream.com/video/9365b0ef-9cb7-46a4-9341-e3c0cb7f6c06)
+[Associated Video Tutorial](https://web.microsoftstream.com/video/9365b0ef-9cb7-46a4-9341-e3c0cb7f6c06)
 
 ## Step 1: Install a Desktop Environment
 
