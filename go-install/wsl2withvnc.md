@@ -6,6 +6,10 @@
 * A non-root sudo user
 * A VNC Client (also called VNC Viewer) which is the software that you’ll run on your Windows 10 machine and will enable you to control your VNC server. There are some popular VNC viewers that you can choose from. The one I’m using in this tutorial is Real VNC Viewer, but on subsequent testing the [TigerVNC](https://tigervnc.org/) client delivers better resolution.
 
+# To long to read - watch the video
+
+[Assocaited Video Tutorial](https://web.microsoftstream.com/video/9365b0ef-9cb7-46a4-9341-e3c0cb7f6c06)
+
 ## Step 1: Install a Desktop Environment
 
 For this particular post, we will install the XFCE desktop environment. It is fast, stable, and easy to use.
@@ -83,7 +87,7 @@ Up to this point, our VNC server is up and running. However, it cannot give us a
 vncpasswd
 ```
 
-# Step 3: Configure the VNC server
+## Step 3: Configure the VNC server
 Up to this point, we have successfully installed the VNC server and even set up a password.
 
 Now we need to configure the commands that will be executed by the server every time we start a VNC instance.
@@ -151,7 +155,7 @@ The above command launches a VNC server instance on port 5901.
 
 Let’s test the VNC server.
 
-# Connecting to your VNC Remote Desktop
+## Connecting to your VNC Remote Desktop
 
 Launch your VNC Client (or VNC Viewer) application on your local machine and connect to the VNC server using server_ip_address:1 or server_ip_address:5901.
 
