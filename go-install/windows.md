@@ -46,6 +46,7 @@ To use Visual Studio Code:
 :sparkles: This now the preferred method and fully supports the summative assignment. :sparkles:
 
 There is a written guide [here](wsl2withvnc.md) and a video tutorial [here](https://web.microsoftstream.com/video/9365b0ef-9cb7-46a4-9341-e3c0cb7f6c06)
+
 ![gol](content/gol.png)
 
 
