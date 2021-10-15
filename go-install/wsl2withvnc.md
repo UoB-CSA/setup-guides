@@ -6,7 +6,7 @@
 * A non-root sudo user
 * A VNC Client (also called VNC Viewer) which is the software that you’ll run on your Windows 10 machine and will enable you to control your VNC server. There are some popular VNC viewers that you can choose from. The one I’m using in this tutorial is Real VNC Viewer, but on subsequent testing the [TigerVNC](https://tigervnc.org/) client delivers better resolution.
 
-# To long to read - watch the video
+# Too long to read - watch the video
 
 [Associated Video Tutorial](https://web.microsoftstream.com/video/9365b0ef-9cb7-46a4-9341-e3c0cb7f6c06)
 
