@@ -39,13 +39,14 @@ To use Visual Studio Code:
 
 1. Follow the [Visual Studio Code setup guide](/editors/vscode.md) to install Go tools.
 
-
-
+\
+\
+![gol](content/gol.png)
 # Graphical Access to WSL2 using TigerVPN
 :sparkles: This now the preferred method and fully supports the summative assignment. :sparkles:
 
 There is a written guide [here](wsl2withvnc.md) and a video tutorial [here](https://web.microsoftstream.com/video/9365b0ef-9cb7-46a4-9341-e3c0cb7f6c06)
-
+![gol](content/gol.png)
 
 
 ## Graphical Access to WSL2 viva SSH with X forwarding (tricky, but allows you to run IntelliJ with Go plugin natively on WSL2 - facilitating all that IntelliJ goodness)
