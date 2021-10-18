@@ -22,7 +22,7 @@ You now have a terminal connected to your AWS instance.
 
 The best way to transfer files between your local machine and the instance is to use a git repo for your work and clone the repo to the AWS instance. To learn how to use git follow [this guide](https://www.ole.bris.ac.uk/bbcswebdav/users/csxdb/pub/git/index.html).
 
-Alternatively, consider using Filezilla:
+Alternatively, consider using Filezilla (take extreme caution when downloading FileZilla as **some vendors bundle it with Malware!!**):
 
 1.	Download and install FileZilla on your local machine
 2.	Open the menu File -> Site Manager
