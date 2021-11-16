@@ -32,3 +32,7 @@ It's just been installed so we have had little time for testing. It should "find
 * File->Settings->Languages & Frameworks->Go->GOROOT
 
 and edit appropriately.
+
+# Remote Access to Lab machines
+
+
