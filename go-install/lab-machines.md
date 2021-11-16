@@ -35,4 +35,4 @@ and edit appropriately.
 
 # Remote Access to Lab machines
 
-
+https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx
