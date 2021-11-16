@@ -18,3 +18,21 @@ export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 6. Close and re-open any terminal windows.
 
 7. Verify your installation with the command `go version`. The version needs to be **higher** than `1.13`.
+
+# M1 Mac work arounds (Credit Orchard)
+
+1. edit ~/.zshrc with vim/nano. (if you are using a different shell you need to edit the corresponding config file, check which shell you are using https://github.com/UoB-CSA/setup-guides/blob/master/go-install/mac.md)
+
+2. add followings (replace maxosx12.0 with your own mac os version)
+
+```
+export GOOS=darwin
+export GOARCH=arm64
+export CGO_CFLAGS="-isysroot $(xcrun --sdk macosx12.0 --show-sdk-path) -arch arm64 -I/usr/local/include"
+export CGO_LDFLAGS="-isysroot $(xcrun --sdk macosx12.0 --show-sdk-path) -arch arm64 -L/usr/local/lib"
+export CGO_ENABLED=1
+```
+
+3. go to your coursework folder and type go run .
+
+Credit to [this source](https://github.com/veandco/go-sdl2/issues/479) about Go and SDL2 issues
