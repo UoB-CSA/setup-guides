@@ -20,11 +20,8 @@ export PATH="$PATH:$GOPATH/bin"
 
 # Using IntelliJ with go plugin on lab machines
 
-IntelliJ is installed on thr lab machines. To use it, open a terminal an type:
+IntelliJ is installed on thr lab machines. To use it, open the search bar and type: "ultimate" and it will come up
 
-```bash
-/opt/idea/idea-IU-212.5080.55/bin/idea.sh &
-```
 
 The licence server is located here: http://ls-jetbrains.bris.ac.uk:8080
 
