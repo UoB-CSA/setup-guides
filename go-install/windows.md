@@ -2,6 +2,8 @@
 
 **We recommend using Windows Subsystem for Linux 2 (WSL2). No official support for native Windows will be provided.**
 
+## NEW WSL2 INSTRUCTIONS FOR 27/9/22 -> [here](https://seis.bristol.ac.uk/~sh1670/Windows.html) 
+
 ## WSL2
 
 1. Follow the [official instructions here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install WSL2. **Do not install WSL1**: some tools will not work correctly. When prompted to install a distribution of your choice, we officially recommend [Ubuntu 20.04 LTS](https://www.microsoft.com/store/apps/9n6svws3rx71).
