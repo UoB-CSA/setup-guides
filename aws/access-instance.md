@@ -4,7 +4,7 @@ To access an instance you will need to use ssh. Linux and macOS support this in 
 
 1. Locate the keypair that you downloaded from AWS when you started your instances.
 
-2. Find the IP address of the instance you would like to connect to. This will be shown if you click on a instance from the list you have created. In the example below the ip address is `52.90.29.156`
+2. Find the IP address of the instance you would like to connect to. This will be shown if you click on a instance from the list you have created. In the example below the ip address is `54.210.24.40`
 
 ![ip address](content/ip-address.png)
 
@@ -14,9 +14,12 @@ To access an instance you will need to use ssh. Linux and macOS support this in 
 
 4. **WARNING MAKE SURE YOU TYPE THIS COMMAND *EXACTLY* AS SHOWN** Set your key to have the correct permissions by running `chmod 0600 ~/.ssh/keypair.pem`. 
 
-5. Use the command `ssh ec2-user@52.90.29.156 -i ~/.ssh/keypair.pem`. Replace the IP address with your IP.
+5. Use the command `ssh ec2-user@54.210.24.40 -i ~/.ssh/keypair.pem`. Replace the IP address with your IP.
 
-You now have a terminal connected to your AWS instance.
+You now have a terminal connected to your AWS instance (example on Sion's machine shown below)
+
+<img src="content/keypermissionsandaccess.png" alt="drawing" width="640"/>
+
 
 ## Coping files
 

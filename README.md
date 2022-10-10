@@ -32,7 +32,7 @@ You will receive an email from AWS Academy to setup your account. Complete the a
 
 **It is important that you look after this credit! Once it's gone it's gone! Don't run instances when you aren't using them.**
 
-We advise that while you are testing your implementation you use a t2.micro instance. When you want to run benchmarks on your Game of Life coursework you should use a c4.xlarge instance. **Do not just use a c4.xlarge for regular development and testing, you will likely run out of credit if you do!**
+Currently AWS academy is limited to t1/t2.micro instances and some medium instances (2 vCPU) When you want to run benchmarks on your Game of Life coursework you should use the largest instances available. **Stick to the micro instances for regular development and testing, you will likely run out of credit if you don't!**
 
 These are some guides that we have created to help you setup your AWS instances. 
 
