@@ -5,7 +5,7 @@
 
 For Amazon Linux 2, the default login username is ec2-user
 
-1. Run the following commands in terminal to install Go (version 1.15.14) and sdl2 (normally this is not needed as it's in headless environment):
+1. Run the following commands in terminal to install Go and sdl2 (normally this is not needed as it's in headless environment):
 
 ```bash
 sudo yum install go
