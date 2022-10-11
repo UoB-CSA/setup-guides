@@ -38,7 +38,7 @@ This will help you setup an instance on AWS (**Just ingore, click OK on pop-ups 
 
 <img src="content/aws7.png" alt="drawing" width="640"/>
 
-* You now need to select an instance type. If you are working on labsheets or just testing your coursework, use a t2.micro instance. If you are benchmarking your distributed system use the largest available -  medium instances (2 vCPU) seem to launch OK (large are not permitted). Once you have chosen the instance select "next".
+* You now need to select an instance type. If you are working on labsheets or just testing your coursework, use a t2.micro instance. If you are benchmarking your distributed system use the largest available -  medium instances (2 vCPU) seem to launch OK (and rumour around the lab is that M5 Large instances work too!). Once you have chosen the instance select "next".
 
 * Most settings on this page **do not** need to be changed, the only one you should worry about is **creating a key pair** 
 
