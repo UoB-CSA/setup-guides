@@ -36,3 +36,19 @@ export CGO_ENABLED=1
 3. go to your coursework folder and type go run .
 
 Credit to [this source](https://github.com/veandco/go-sdl2/issues/479) about Go and SDL2 issues
+
+# Mac fix for 2022-23
+Get "Panic: Window Data not found"
+
+Comment out error checking for w.window.Destroy() in Destroy method:
+```
+func (w *Window) Destroy() {
+	err := w.texture.Destroy()
+	util.Check(err)
+	err = w.renderer.Destroy()
+	util.Check(err)
+	err = w.window.Destroy()
+	//util.Check(err)
+	sdl.Quit()
+}
+```
