@@ -38,6 +38,11 @@ export CGO_ENABLED=1
 Credit to [this source](https://github.com/veandco/go-sdl2/issues/479) about Go and SDL2 issues
 
 # Mac fix for 2022-23
+## pkg-config error
+In your terminal run: 
+brew install sdl2{,_image,_mixer,_ttf,_gfx} pkg-config
+
+## Window data panic
 Get "Panic: Window Data not found"
 
 Comment out error checking for w.window.Destroy() in Destroy method:
