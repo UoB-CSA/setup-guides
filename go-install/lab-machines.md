@@ -7,7 +7,7 @@ To setup Go for your user account on a **lab machine** you need to update your `
 2. Add this to the end of the file:
 
 ```
-module load go/1.13
+module load go
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
 ```
@@ -16,16 +16,15 @@ export PATH="$PATH:$GOPATH/bin"
 
 4. Close and re-open any terminal windows. If you are working over `ssh` you can use the command `source ~/.bashrc`.
 
-5. Verify your installation with the command `go version`. The version **will be `1.13`**.
+5. Verify your installation with the command `go version`. The version **will be `1.17.13`**.
 
 # Using IntelliJ with go plugin on lab machines
 
 IntelliJ is installed on thr lab machines. To use it, open the search bar and type: "ultimate" and it will come up
 
-
 The licence server is located here: http://ls-jetbrains.bris.ac.uk:8080
 
-It's just been installed so we have had little time for testing. It should "find" go automatically and configure itself. It may locate a later version of go than that specified above (1.15.14). This is untested with this year's crousework, but should work. If you want to specify the above version, select:
+It's just been installed so we have had little time for testing. It should "find" go automatically and configure itself. If you need to specify the above version, select:
 * File->Settings->Languages & Frameworks->Go->GOROOT
 
 and edit appropriately.
