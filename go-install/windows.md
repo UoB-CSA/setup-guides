@@ -1,6 +1,6 @@
 ## SYSTEM SETUP FOR WINDOWS 10 or 11
 
-### Windows can now run Linux graphics applications "out of the box". Note that is you have SDL2 graphics working from year 1, jump straight to the GoLang install instructions in the first instance
+### Windows can now run Linux graphics applications "out of the box". Note that is you have SDL2 graphics working from year 1, jump straight to the [GoLang install instructions](https://github.com/UoB-CSA/setup-guides/blob/master/go-install/windows.md#install-the-correct-version-of-golang) in the first instance
 
 ### Ubuntu 22.04 has been tested and works with final coursework
 
