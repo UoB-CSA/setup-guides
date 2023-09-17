@@ -2,6 +2,8 @@
 
 ### Windows can now run Linux graphics applications "out of the box". Note that is you have SDL2 graphics working from year 1, jump straight to the GoLang install instructions in the first instance
 
+### Ubuntu 22.04 has been tested and works with final coursework
+
 This is a brief tutorial on how to setup your personal Windows 10 or 11 64bit Home or Professional system to be ready for the COMS20008 unit. The below steps represent one out of many ways of setting up your Windows 10 or 11 system for the unit. Before you start make sure Windows 10 or 11 is up-to-date with respect to updates and features. It is your responsibility to keep your personal system and passwords safe.
 
 CHECK SYSTEM COMPATIBILITY
@@ -25,6 +27,7 @@ INSTALL THE CLANG COMPILER
 --------------------------
 
 *   In an Ubuntu terminal, run `sudo apt-get update`
+*   In an Ubuntu terminal, run `sudo apt-get install build-essential`
 *   In an Ubuntu terminal, run `sudo apt install clang`
 
 INSTALL THE SDL2 DEVELOPMENT PACKAGE
