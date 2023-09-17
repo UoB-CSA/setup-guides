@@ -41,7 +41,7 @@ These are some guides that we have created to help you setup your AWS instances.
 - [Accessing an instance](aws/access-instance.md)
 - [Opening ports](aws/ports.md)
 
-## Detailed set up guides with videos
+## Detailed set up guides with videos (DEPRECATED)
 
 - Install Go on Ubuntu via Snap [video](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2022_TB-1/CONTENT_2022/tuts/InstallGoOnUbuntuViaSnap/Install_Go_on_Linux_via_Snap.mp4),[transcript](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2022_TB-1/CONTENT_2022/tuts/InstallGoOnUbuntuViaSnap/snap.htm)
 - Install Go on Linux Via a Binary Release [video](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2022_TB-1/CONTENT_2022/tuts/InstallGoOnLinuxViaABinary%20Release/Install_Go_on_Linux_via_a_binaryRelease.mp4), [transcript](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2022_TB-1/CONTENT_2022/tuts/InstallGoOnLinuxViaABinary%20Release/binary.htm)
