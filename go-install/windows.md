@@ -43,7 +43,7 @@ RUNNING THE LINUX DESKTOP AND CHECKING SDL2
 *   Run the compiled program by running `./hellosdl` - if you see a sky blue window appear then SDL2 is working properly!
 *   Note that some parts of the SDL library unfortunately have memory leaks, but there's nothing you can do about them, so don't be alarmed if you see some warnings.
 
-INSTALL THE CORRECT VERSION OF GoLang
+INSTALL THE CORRECT VERSION OF GOLANG
 -------------------------------------------
 
 1. Run the following commands in terminal:
