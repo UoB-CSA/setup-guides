@@ -39,3 +39,31 @@ RUNNING THE LINUX DESKTOP AND CHECKING SDL2
 *   Compile the program in that folder by running `clang -std=c11 -Wall hellosdl.c -I /usr/include/SDL2 -l SDL2 -o hellosdl` , where the 'I' (uppercase i) in `-I /usr/include/SDL2` stands for "Include" and the 'l' (lowercase L) in `-l SDL2` stands for "link".
 *   Run the compiled program by running `./hellosdl` - if you see a sky blue window appear then SDL2 is working properly!
 *   Note that some parts of the SDL library unfortunately have memory leaks, but there's nothing you can do about them, so don't be alarmed if you see some warnings.
+
+INSTALL THE CORRECT VERSION OF GoLang
+-------------------------------------------
+
+1. Run the following commands in terminal:
+
+```bash
+wget https://dl.google.com/go/go1.17.13.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.17.13.linux-amd64.tar.gz
+```
+
+2. Open your `.bashrc` file (`~/.bashrc`) in your editor of choice. Add the following lines to the bottom of the file:
+
+```bash
+export GOPATH="$HOME/go"
+export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
+```
+
+3. Save the file and exit.
+
+4. Close and re-open any terminal windows.
+
+5. Verify your installation with the command `go version`. The version **will be `1.17.13`**.
+
+INSTALL A WEB BROWSER, GOLAND (OR INTELLIJ ULTIMATE), AND A FILE EXPLORER
+-------------------------------------------
+*   In an Ubuntu terminal, run `sudo apt install nautilus -y`
+*   In an Ubuntu terminal, run `sudo apt install nautilus -y`
