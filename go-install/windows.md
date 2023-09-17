@@ -13,7 +13,7 @@ CHECK SYSTEM COMPATIBILITY
 
 *   Your "System type" is "64-bit operating system, x64-based processor".
 *   Your system is not in S-Mode and your "Edition" is either "Windows 10 Home" or "Windows 10 Professional" or "Windows 11 Home" or "Windows 11 Professional" without "S Mode". If you need to switch out of S-Mode, follow the instructions on the [Microsoft Support Page](https://support.microsoft.com/en-gb/help/4456067/windows-10-switch-out-of-s-mode).
-*   To run graphical Linux applications you wil need **Windows 10 Build 19044+ or Windows 11**. If you have an earlier build, you must update your system by going to "Settings -> Update & Security -> Windows Update", then checking for updates and installing any that are available.
+*   To run graphical Linux applications, you will need **Windows 10 Build 19044+ or Windows 11**. If you have an earlier build, you must update your system by going to "Settings -> Update & Security -> Windows Update", then checking for updates and installing any that are available.
 
 FOLLOW THE OFFICIAL MICROSOFT INSTRUCTIONS FOR INSTALLING WSL2 (WINDOWS SUBSYSTEM FOR LINUX) IN WINDOWS 10 or 11
 --------------------------
@@ -74,5 +74,6 @@ INSTALL GOLAND (OR INTELLIJ ULTIMATE)
 -------------------------------------------
 * Open Firefox **from Ubuntu** by typing `firefox &` in an Ubuntu terminal
 * Navigate to https://www.jetbrains.com/go/download/#section=linux **from the Ubunut install of Firefox** and download the .tar.gz
-* Unpack the archive to your home directory running `tar -xzf ~/snap/firefox/common/Downloads/goland-2023.2.2.tar.gz -C ~/` in an Ubunutu terminal
-* Run GoLand by typing ` ~/GoLand-2023.2.2/bin/goland.sh &` in an Ubunut terminal
+* Unpack the archive to your home directory running `tar -xzf ~/snap/firefox/common/Downloads/goland-2023.2.2.tar.gz -C ~/` in an Ubuntu terminal
+* Run GoLand by typing ` ~/GoLand-2023.2.2/bin/goland.sh &` in an Ubuntu terminal
+* Log into your [free JetBrains account](https://www.jetbrains.com/community/education/#students). If GoLand cannot find Firefox, point it here: `/snap/bin/firefox`
