@@ -20,8 +20,8 @@ CHECK SYSTEM COMPATIBILITY
 FOLLOW THE OFFICIAL MICROSOFT INSTRUCTIONS FOR INSTALLING WSL2 (WINDOWS SUBSYSTEM FOR LINUX) IN WINDOWS 10 or 11
 --------------------------
 
-[Microsoft Support Page](https://learn.microsoft.com/en-us/windows/wsl/install)
- 
+*    [Microsoft Support Page](https://learn.microsoft.com/en-us/windows/wsl/install)
+*    [Troubleshooting](windows_fixes.md) 
 
 INSTALL THE CLANG COMPILER
 --------------------------
