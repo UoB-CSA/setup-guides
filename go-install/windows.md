@@ -63,7 +63,16 @@ export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 
 5. Verify your installation with the command `go version`. The version **will be `1.17.13`**.
 
-INSTALL A WEB BROWSER, GOLAND (OR INTELLIJ ULTIMATE), AND A FILE EXPLORER
+INSTALL A FILE EXPLORER, A TEXT EDITOR AND A WEB BROWSER AND 
 -------------------------------------------
-*   In an Ubuntu terminal, run `sudo apt install nautilus -y`
-*   In an Ubuntu terminal, run `sudo apt install nautilus -y`
+
+*   File explorer: In an Ubuntu terminal, run `sudo apt install nautilus -y`
+*   Text editor: In an Ubuntu terminal, run `sudo apt install gnome-text-editor -y`
+*   Web browser: In an Ubuntu terminal, run `sudo apt-get install firefox -y`
+
+INSTALL GOLAND (OR INTELLIJ ULTIMATE)
+-------------------------------------------
+* Open Firefox **from Ubuntu** by typing `firefox &` in an Ubuntu terminal
+* Navigate to https://www.jetbrains.com/go/download/#section=linux **from the Ubunut install of Firefox** and download the .tar.gz
+* Unpack the archive to your home directory running `tar -xzf ~/snap/firefox/common/Downloads/goland-2023.2.2.tar.gz -C ~/` in an Ubunutu terminal
+* Run GoLand by typing ` ~/GoLand-2023.2.2/bin/goland.sh &` in an Ubunut terminal
