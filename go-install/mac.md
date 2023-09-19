@@ -3,7 +3,7 @@
 These instructions were prepared on the following hardware:
 * Intel Mac running Ventura 13.5.1
 * M1 Mac running Ventura 13.5.x
-## **If you do not have clang, SDL2, gcc etc. (xcode) [then please complete this guide first](mac_prelim.md)**
+## **If you do not have clang, sdl2, gcc etc. (xcode) [then please complete this guide first](mac_prelim.md)**
 
 # Go installation 
 1. For Apple Silicon (M1/M2), download version **go1.17.13** of Go and for Intel Silicon (AMD64/x86-64) download version **go1.18.10**
