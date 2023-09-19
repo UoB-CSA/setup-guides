@@ -25,7 +25,9 @@ There are also some setup guides for popular IDEs:
 
 - [VSCode](editors/vscode.md)
 - [IntelliJ Ultimate with Go plugin](https://www.jetbrains.com/help/idea/go-plugin.html)
-- [GoLand](https://www.jetbrains.com/go/)
+- [GoLand](https://www.jetbrains.com/go/)*
+
+\* Note: you will need an educational license for GoLand. Please see [guidance](editors/jetbrains-license.md) on how to obtain this.
 
 ## Using AWS
 
