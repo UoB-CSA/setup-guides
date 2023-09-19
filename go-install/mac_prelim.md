@@ -12,10 +12,14 @@ INSTALL HOMEBREW
 *   If a 'command not found' error is shown, run the following command in your terminal and follow the instructions, including the commands it tells you to run in the "Next steps" section after the installation finishes:  
     `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 *   If you encounter a permissions issue on your device you may want to check out this [discussion](https://gist.github.com/irazasyed/7732946).
-*   Run: `brew update` (if brew is not added to path - was not on my M1 mac add it: `echo 'export PATH="$PATH:/opt/homebrew/bin"' > ~/.zshrc`)
+*   Run: `brew update` (if brew is not added to path - was not on my M1 mac add it:)
+*   Edit `~/.zshrc` by typing `open ~/.zshrc` in terminal (or use vim/vscode if you like), add the following lines to the bottom of the file:
 
+   ``` bash
+   export PATH="$PATH:/opt/homebrew/bin
+   ```
+   > **NOTICE:** If your terminal says `The file /Users/your_username/.zshrc does not exist`, you need to type `touch ~/.zshrc` to create the file first.
 
-At this point your system is ready for most of the COMS10016 unit and you are ready to start programming in C and Haskell. Further installations are optional at the beginning of the unit. However, during the last part of the unit we will use graphics, and for this we will need the SDL2 graphics libraries and a Linux desktop environment...
 
 INSTALL THE SDL2 DEVELOPMENT PACKAGE
 ------------------------------------
