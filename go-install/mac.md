@@ -1,13 +1,17 @@
 # Setup instructions for macOS
 
+These instructions were prepared on the following hardware:
+* Intel Mac running Ventura 13.5.1
+* M1 Mac running Ventura 13.5.x
+
 1. Get **macOS** ready for the Go install by running `xcode-select --install` in terminal. Follow the onscreen prompts to install.
 
-2. Download version go1.17.13 of Go for **macOS** from [here](https://golang.org/dl/).
+2. For Apple Silicon (M1/M2), download version **go1.17.13** of Go and for Intel Silicon (AMD64/x86-64) download version **go1.18.10**
 
    > **NOTICE:**
    > **Please make sure you know whether you are using an Apple Silicon (M1/M2) Mac or an Intel Mac, google if you don't know.** 
    > * If you are an **Apple Silicon Mac**, download `Apple macOS (ARM64)`, typically named `go1.xx.x-darwin-arm64.pkg` [HERE](https://go.dev/dl/go1.17.13.darwin-arm64.pkg)
-   > * If you are an **Intel Mac**, download `Apple macOS(x86-64)`, typically named `gox1.xx.x-darwin-amd64.pkg` **(amd64 here instead of arm64)** [HERE](https://go.dev/dl/go1.17.13.darwin-amd64.pkg)
+   > * If you are an **Intel Mac**, download `Apple macOS(x86-64)`, typically named `gox1.xx.x-darwin-amd64.pkg` **(amd64 here instead of arm64)** [HERE](https://go.dev/dl/go1.18.10.darwin-amd64.pkg)
 
 3. Run and follow the prompts to install Golang.
 
