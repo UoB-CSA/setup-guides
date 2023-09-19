@@ -3,8 +3,7 @@
 These instructions were prepared on the following hardware:
 * Intel Mac running Ventura 13.5.1
 * M1 Mac running Ventura 13.5.x
-1. If you do not have clang, gcc etc. (xcode) [then please complete this guide first](mac_prelim.md)
-2. Get **macOS** ready for the Go install by running `xcode-select --install` in terminal. Follow the onscreen prompts to install.
+1. **If you do not have clang, gcc etc. (xcode) [then please complete this guide first](mac_prelim.md)**
 
 3. For Apple Silicon (M1/M2), download version **go1.17.13** of Go and for Intel Silicon (AMD64/x86-64) download version **go1.18.10**
 
