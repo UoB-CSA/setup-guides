@@ -6,16 +6,16 @@ These instructions were prepared on the following hardware:
 ## **If you do not have clang, SDL2, gcc etc. (xcode) [then please complete this guide first](mac_prelim.md)**
 
 # Go installation 
-3. For Apple Silicon (M1/M2), download version **go1.17.13** of Go and for Intel Silicon (AMD64/x86-64) download version **go1.18.10**
+1. For Apple Silicon (M1/M2), download version **go1.17.13** of Go and for Intel Silicon (AMD64/x86-64) download version **go1.18.10**
 
    > **NOTICE:**
    > **Please make sure you know whether you are using an Apple Silicon (M1/M2) Mac or an Intel Mac, google if you don't know.** 
    > * If you are an **Apple Silicon Mac**, download `Apple macOS (ARM64)`, typically named `go1.xx.x-darwin-arm64.pkg` [HERE](https://go.dev/dl/go1.17.13.darwin-arm64.pkg)
    > * If you are an **Intel Mac**, download `Apple macOS(x86-64)`, typically named `gox1.xx.x-darwin-amd64.pkg` **(amd64 here instead of arm64)** [HERE](https://go.dev/dl/go1.18.10.darwin-amd64.pkg)
 
-4. Run and follow the prompts to install Golang.
+2. Run and follow the prompts to install Golang.
 
-5. Edit `~/.zshrc` by typing `open ~/.zshrc` in terminal (or use vim/vscode if you like), add the following lines to the bottom of the file:
+3. Edit `~/.zshrc` by typing `open ~/.zshrc` in terminal (or use vim/vscode if you like), add the following lines to the bottom of the file:
 
    ``` bash
    export GOPATH="$HOME/go"
@@ -30,11 +30,11 @@ These instructions were prepared on the following hardware:
    > 
    > If it says `/bin/bash`, then you are using **bash**, you can type `chsh -s /bin/zsh` in terminal to set Zshell as your default, or continue with bash and writing those two lines to `~/.bash_profile`.
 
-6. Save the file and exit.
+4. Save the file and exit.
 
-7. Close and re-open any terminal windows.
+5. Close and re-open any terminal windows.
 
-8. Verify your installation with the command `go version`. The version needs to be **higher** than **1.13**.
+6. Verify your installation with the command `go version`. The version needs to be **higher** than **1.13**.
 
 # M1 Mac work arounds (deprecated)
 
