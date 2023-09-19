@@ -24,10 +24,10 @@ go env -w GOPROXY=https://goproxy.cn,direct
 There are also some setup guides for popular IDEs:
 
 - [VSCode](editors/vscode.md)
-- [IntelliJ Ultimate with Go plugin](https://www.jetbrains.com/help/idea/go-plugin.html)
+- [IntelliJ Ultimate with Go plugin](https://www.jetbrains.com/help/idea/go-plugin.html)*
 - [GoLand](https://www.jetbrains.com/go/)*
 
-\* Note: you will need an educational license for GoLand. Please see [guidance](editors/jetbrains-license.md) on how to obtain this.
+\* Note: you will need an educational license for GoLand and IntelliJ Ultimate. Please see [guidance](editors/jetbrains-license.md) on how to obtain this.
 
 ## Using AWS
 
