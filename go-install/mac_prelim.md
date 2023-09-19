@@ -13,12 +13,12 @@ INSTALL HOMEBREW
     `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 *   If you encounter a permissions issue on your device you may want to check out this [discussion](https://gist.github.com/irazasyed/7732946).
 *   Run: `brew update` (if brew is not added to path - was not on my M1 mac add it:)
-*   Edit `~/.zshrc` by typing `open ~/.zshrc` in terminal (or use vim/vscode if you like), add the following lines to the bottom of the file:
+    *   Edit `~/.zshrc` by typing `open ~/.zshrc` in terminal (or use vim/vscode if you like), add the following lines to the bottom of the file:
 
-   ``` bash
-   export PATH="$PATH:/opt/homebrew/bin
-   ```
-   > **NOTICE:** If your terminal says `The file /Users/your_username/.zshrc does not exist`, you need to type `touch ~/.zshrc` to create the file first.
+       ``` bash
+       export PATH="$PATH:/opt/homebrew/bin
+       ```
+       > **NOTICE:** If your terminal says `The file /Users/your_username/.zshrc does not exist`, you need to type `touch ~/.zshrc` to create the file first.
 
 
 INSTALL THE SDL2 DEVELOPMENT PACKAGE
