@@ -2,7 +2,7 @@
 
 These instructions were prepared on the following hardware:
 * Intel Mac running Ventura 13.5.1
-* M1 Mac running Ventura 13.5.x
+* M1 Mac running Ventura 13.5.2
 ## **If you do not have clang, sdl2, gcc etc. (xcode) [then please complete this guide first](mac_prelim.md)**
 
 # Go installation 
