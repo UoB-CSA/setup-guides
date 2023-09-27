@@ -22,8 +22,6 @@ export PATH="$PATH:$GOPATH/bin"
 
 IntelliJ is installed on thr lab machines. To use it, open the search bar and type: "ultimate" and it will come up
 
-The licence server is located here: http://ls-jetbrains.bris.ac.uk:8080
-
 It's just been installed so we have had little time for testing. It should "find" go automatically and configure itself. If you need to specify the above version, select:
 * File->Settings->Languages & Frameworks->Go->GOROOT
 
