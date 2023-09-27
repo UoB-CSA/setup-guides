@@ -17,11 +17,17 @@ CHECK SYSTEM COMPATIBILITY
 *   Your system is not in S-Mode and your "Edition" is either "Windows 10 Home" or "Windows 10 Professional" or "Windows 11 Home" or "Windows 11 Professional" without "S Mode". If you need to switch out of S-Mode, follow the instructions on the [Microsoft Support Page](https://support.microsoft.com/en-gb/help/4456067/windows-10-switch-out-of-s-mode).
 *   To run graphical Linux applications, you will need **Windows 10 Build 19044+ or Windows 11**. If you have an earlier build, you must update your system by going to "Settings -> Update & Security -> Windows Update", then checking for updates and installing any that are available.
 
-FOLLOW THE OFFICIAL MICROSOFT INSTRUCTIONS FOR INSTALLING WSL2 (WINDOWS SUBSYSTEM FOR LINUX) IN WINDOWS 10 or 11
+INSTALL WSL2 (WINDOWS SUBSYSTEM FOR LINUX) IN WINDOWS 10 or 11
 --------------------------
 
-*    [Microsoft Support Page](https://learn.microsoft.com/en-us/windows/wsl/install)
-*    [Troubleshooting](windows_fixes.md) 
+*    Windows search "PowerShell"
+*    Launch PowerShell in administrator mode by right-clicking and pressing "Run as administrator"
+*    In a PowerShell terminal, run `wsl --install`
+*    Restart your computer
+*    In a PowerShell terminal, run `wsl --set-default-version 2`
+*    In a PowerShell terminal, run `wsl --install -d Ubuntu-22.04`
+
+*    [Troubleshooting](windows_fixes.md)
 
 INSTALL THE CLANG COMPILER
 --------------------------
