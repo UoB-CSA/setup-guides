@@ -72,11 +72,12 @@ export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 
 5. Verify your installation with the command `go version`. The version **will be `1.17.13`**.
 
-INSTALL A FILE EXPLORER, A TEXT EDITOR AND A WEB BROWSER AND 
+INSTALL A FILE EXPLORER, A TEXT EDITOR AND A WEB BROWSER
 -------------------------------------------
 
 *   File explorer: In an Ubuntu terminal, run `sudo apt install nautilus -y`
 *   Text editor: In an Ubuntu terminal, run `sudo apt install gnome-text-editor -y`
+    - If that doesn't work, run `sudo apt install gedit -y`
 *   Web browser: In an Ubuntu terminal, run `sudo apt-get install firefox -y`
 
 INSTALL GOLAND (OR INTELLIJ ULTIMATE)
