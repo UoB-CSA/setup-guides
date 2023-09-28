@@ -36,26 +36,6 @@ These instructions were prepared on the following hardware:
 
 6. Verify your installation with the command `go version`. The version needs to be **higher** than **1.13**.
 
-# M1 Mac work arounds (deprecated)
-
-> **NOTICE: This has been deprecated and will be removed next year.**
-> 
-> This workaround was for CGO and no longer worked on the latest macOS 13 Ventura.
-> 
-> It is deprecated and not needed, don't follow this anymore.
-> 
-> If you followed this workaround before and started to see `2022-xx-xx xx:xx:xx.xx xcodebuild[4356:201382] Writing error result bundle to /xxxxx.xcresult
-xcodebuild: error: SDK "macosx13.0" cannot be located.` at every startup in terminal, please remove (reverse doing) these from your `~/.zshrc`
-
-Remove ~~Add following lines to `~/.zshrc`~~ 
-
-``` bash
-export GOOS=darwin
-export GOARCH=arm64
-export CGO_CFLAGS="-isysroot $(xcrun --sdk macosx$(sw_vers -ProductVersion) --show-sdk-path) -arch arm64 -I/usr/local/include"
-export CGO_LDFLAGS="-isysroot $(xcrun --sdk macosx$(sw_vers -ProductVersion) --show-sdk-path) -arch arm64 -L/usr/local/lib"
-export CGO_ENABLED=1
-```
 
 # Mac fix for 2022-23
 ## pkg-config error
