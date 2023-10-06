@@ -53,5 +53,5 @@ Please [use main instructions above](https://github.com/UoB-CSA/setup-guides/tre
 ## Debugging Help
 
 - Tracing in Go [video](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2023_TB-1/CONTENT_2023/tuts/TracingInGo/HowToMakeAtraceOfMultipleThreads.mp4),[transcript](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2023_TB-1/CONTENT_2023/tuts/TracingInGo/tracing.htm)
-- Debugging with Delve [video](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2023_TB-1/CONTENT_2023/tuts/DebuggingWithDelve/debugging_with_delve_1.mp4),[transcript](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2021_TB-2/CONTENT_2022/tuts/DebuggingWithDelve/delve.htm)
+- Debugging with Delve [video](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2023_TB-1/CONTENT_2023/tuts/DebuggingWithDelve/debugging_with_delve_1.mp4),[transcript](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2021_TB-2/CONTENT_2023/tuts/DebuggingWithDelve/delve.htm)
 
