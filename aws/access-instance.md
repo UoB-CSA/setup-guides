@@ -23,7 +23,7 @@ You now have a terminal connected to your AWS instance (example on Sion's machin
 
 ## Coping files
 
-The best way to transfer files between your local machine and the instance is to use a git repo for your work and clone the repo to the AWS instance. To learn how to use git follow [this guide](https://www.ole.bris.ac.uk/bbcswebdav/users/csxdb/pub/git/index.html).
+The best way to transfer files between your local machine and the instance is to use a git repo for your work and clone the repo to the AWS instance. To learn how to use git follow [this guide](https://cs-uob.github.io/COMS10012/exercises/part1/git/index.html).
 
 <!--- Alternatively, consider using Filezilla (take extreme caution when downloading FileZilla as **some vendors bundle it with Malware!!**):
 
