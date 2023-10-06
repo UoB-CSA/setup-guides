@@ -25,6 +25,10 @@ You now have a terminal connected to your AWS instance (example on Sion's machin
 
 The best way to transfer files between your local machine and the instance is to use a git repo for your work and clone the repo to the AWS instance. To learn how to use git follow [this guide](https://cs-uob.github.io/COMS10012/exercises/part1/git/index.html).
 
+Alternatively, consider using scp. The command to copy `my_stuff.zip` into the home directory on your EC2 instance will be sometheing like `scp -i ~/.ssh/keypair.pem ec2-user@54.210.24.40:~ my_stuff.zip`. Replace the IP address with your IP and `my_stuff.zip` with the file you want to copy. This method is a frustrating as you will need to zip and unzip stuff all the time.
+
+Another option is to use a GUI based FTP program. (WinSCP)[https://winscp.net/eng/index.php] is a great option for Windows users. I cannot recommend FileZilla in good faith FileZilla as **some vendors bundle it with Malware!!** However, I assume if you install with apt from the Ubuntu repos it will be ok (have not tested this!)
+
 <!--- Alternatively, consider using Filezilla (take extreme caution when downloading FileZilla as **some vendors bundle it with Malware!!**):
 
 1.	Download and install FileZilla on your local machine
