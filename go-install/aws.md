@@ -15,4 +15,4 @@ echo 'export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-5. Verify your installation with the command `go version`. 
+2. Verify your installation with the command `go version`. 
