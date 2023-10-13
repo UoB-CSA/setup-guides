@@ -43,7 +43,7 @@ These are some guides that we have created to help you setup your AWS instances.
 - [Creating an instance](aws/create-instance.md)
 - [Accessing an instance](aws/access-instance.md)
 - [Opening ports](aws/ports.md)
-- [Duplicating Instances (credit Damien McGeer)](AMI.md)
+- [Duplicating Instances (credit Damien McGeer)](aws/AMI.md)
 
 ## Detailed set up guides with videos (DEPRECATED)
 Please [use main instructions above](https://github.com/UoB-CSA/setup-guides/tree/master#setup-guides). These should only be used if you are really stuck.
