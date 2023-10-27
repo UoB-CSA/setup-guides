@@ -27,6 +27,8 @@ INSTALL WSL2 (WINDOWS SUBSYSTEM FOR LINUX) IN WINDOWS 10 or 11
 *    In a PowerShell terminal, run `wsl --set-default-version 2`
 *    In a PowerShell terminal, run `wsl --install -d Ubuntu-22.04`
 
+*    If you already had WSL installed, run `wsl --update` to make sure it's on the latest version.
+
 *    [Troubleshooting](windows_fixes.md)
 
 INSTALL THE CLANG COMPILER
