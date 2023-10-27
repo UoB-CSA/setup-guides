@@ -36,6 +36,14 @@ These instructions were prepared on the following hardware:
 
 6. Verify your installation with the command `go version`. The version needs to be **higher** than **1.13**.
 
+# Mac fix for 23-24 (If you get the error: cgo: malformed DWARF TagVariable entry)
+
+Upgrade to latest Go version - **you must limit yourself to language features in 1.17 and before**
+```
+sudo rm -rf /usr/local/go
+sudo rm /etc/paths.d/go
+brew install go
+```
 
 # Mac fix for 2022-23
 ## pkg-config error
