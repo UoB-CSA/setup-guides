@@ -86,6 +86,6 @@ INSTALL GOLAND (OR INTELLIJ ULTIMATE)
 -------------------------------------------
 * Open Firefox **from Ubuntu** by typing `firefox &` in an Ubuntu terminal
 * Navigate to https://www.jetbrains.com/go/download/#section=linux **from the Ubunut install of Firefox** and download the .tar.gz
-* Unpack the archive to your home directory running `tar -xzf ~/snap/firefox/common/Downloads/goland-2023.2.2.tar.gz -C ~/` in an Ubuntu terminal
-* Run GoLand by typing ` ~/GoLand-2023.2.2/bin/goland.sh &` in an Ubuntu terminal
+* Unpack the archive to your home directory running `tar -xzf ~/snap/firefox/common/Downloads/goland-2024.2.1.1.tar.gz -C ~/` in an Ubuntu terminal
+* Run GoLand by typing ` ~/GoLand-2024.2.1.1/bin/goland.sh &` in an Ubuntu terminal
 * Log into your [free JetBrains account](https://www.jetbrains.com/community/education/#students). If GoLand cannot find Firefox, point it here: `/snap/bin/firefox`
