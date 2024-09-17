@@ -82,6 +82,8 @@ INSTALL A FILE EXPLORER, A TEXT EDITOR AND A WEB BROWSER
     - If that doesn't work, run `sudo apt install gedit -y`
 *   Web browser: In an Ubuntu terminal, run `sudo apt-get install firefox -y`
 
+<!-- https://download.jetbrains.com/go/goland-2024.2.1.1.tar.gz -->
+
 INSTALL GOLAND (OR INTELLIJ ULTIMATE)
 -------------------------------------------
 * Open Firefox **from Ubuntu** by typing `firefox &` in an Ubuntu terminal
