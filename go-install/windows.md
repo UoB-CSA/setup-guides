@@ -2,7 +2,7 @@
 
 ### Windows can now run Linux graphics applications "out of the box". Note that is you have SDL2 graphics working from year 1, jump straight to the [GoLang install instructions](https://github.com/UoB-CSA/setup-guides/blob/master/go-install/windows.md#install-the-correct-version-of-golang) in the first instance
 
-### Ubuntu 22.04 has been tested and works with final coursework
+### Ubuntu 24.04 has been tested and works with final coursework
 
 This is a brief tutorial on how to setup your personal Windows 10 or 11 64bit Home or Professional system to be ready for the COMS20008 unit. The below steps represent one out of many ways of setting up your Windows 10 or 11 system for the unit. Before you start make sure Windows 10 or 11 is up-to-date with respect to updates and features. It is your responsibility to keep your personal system and passwords safe.
 
@@ -25,7 +25,7 @@ INSTALL WSL2 (WINDOWS SUBSYSTEM FOR LINUX) IN WINDOWS 10 or 11
 *    In a PowerShell terminal, run `wsl --install`
 *    Restart your computer
 *    In a PowerShell terminal, run `wsl --set-default-version 2`
-*    In a PowerShell terminal, run `wsl --install -d Ubuntu-22.04`
+*    In a PowerShell terminal, run `wsl --install -d Ubuntu-24.04`
 
 *    If you already had WSL installed, run `wsl --update` to make sure it's on the latest version.
 
@@ -57,9 +57,10 @@ INSTALL THE CORRECT VERSION OF GOLANG
 1. Run the following commands in terminal:
 
 ```bash
-wget https://dl.google.com/go/go1.17.13.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.17.13.linux-amd64.tar.gz
+wget https://dl.google.com/go/<Go 1.24.7 Go Version for your CPU>.tar.gz
+sudo tar -C /usr/local -xzf <Go 1.24.7 Go Version for your CPU>.tar.gz
 ```
+Note your code must compile with Go 1.17 so do not use language features 
 
 2. Open your `.bashrc` file (`~/.bashrc`) in your editor of choice. Add the following lines to the bottom of the file:
 
@@ -72,7 +73,7 @@ export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 
 4. Close and re-open any terminal windows.
 
-5. Verify your installation with the command `go version`. The version **will be `1.17.13`**.
+5. Verify your installation with the command `go version`. The version **will be `1.24.7`**.
 
 INSTALL A FILE EXPLORER, A TEXT EDITOR AND A WEB BROWSER
 -------------------------------------------
@@ -88,6 +89,6 @@ INSTALL GOLAND (OR INTELLIJ ULTIMATE)
 -------------------------------------------
 * Open Firefox **from Ubuntu** by typing `firefox &` in an Ubuntu terminal
 * Navigate to https://www.jetbrains.com/go/download/#section=linux **from the Ubunut install of Firefox** and download the .tar.gz
-* Unpack the archive to your home directory running `tar -xzf ~/snap/firefox/common/Downloads/goland-2024.2.1.1.tar.gz -C ~/` in an Ubuntu terminal
-* Run GoLand by typing ` ~/GoLand-2024.2.1.1/bin/goland.sh &` in an Ubuntu terminal
+* Unpack the archive to your home directory running `tar -xzf ~/snap/firefox/common/Downloads/goland-2024.2.1.1.tar.gz -C ~/` in an Ubuntu terminal (IDE version will be different)
+* Run GoLand by typing ` ~/GoLand-2024.2.1.1/bin/goland.sh &` in an Ubuntu terminal (IDE version will be different)
 * Log into your [free JetBrains account](https://www.jetbrains.com/community/education/#students). If GoLand cannot find Firefox, point it here: `/snap/bin/firefox`
