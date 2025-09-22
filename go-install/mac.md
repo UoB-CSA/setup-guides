@@ -6,12 +6,12 @@ These instructions were prepared on the following hardware:
 ## **If you do not have clang, sdl2, gcc etc. (xcode) [then please complete this guide first](mac_prelim.md)**
 
 # Go installation 
-1. For Apple Silicon (M1/M2), download version **go1.17.13** of Go and for Intel Silicon (AMD64/x86-64) download version **go1.18.10**
+1. Go 1.24.7 Go Version for your CPU
 
    > **NOTICE:**
    > **Please make sure you know whether you are using an Apple Silicon (M1/M2) Mac or an Intel Mac, google if you don't know.** 
    > * If you are an **Apple Silicon Mac**, download `Apple macOS (ARM64)`, typically named `go1.xx.x-darwin-arm64.pkg` [HERE](https://go.dev/dl/go1.23.1.darwin-arm64.pkg)
-   > * If you are an **Intel Mac**, download `Apple macOS(x86-64)`, typically named `gox1.xx.x-darwin-amd64.pkg` **(amd64 here instead of arm64)** [HERE](https://go.dev/dl/go1.23.1.darwin-amd64.pkg)
+   > * If you are an **Intel Mac**, download `Apple macOS(x86-64)`, typically named `gox1.xx.x-darwin-amd64.pkg` **(amd64 here instead of arm64)** 
 
 2. Run and follow the prompts to install Golang.
 
