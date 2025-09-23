@@ -5,7 +5,7 @@
 1. Run the following commands in terminal:
 
 ```bash
-wget https://dl.google.com/go/go1.17.13.linux-amd64.tar.gz
+wget https://go.dev/dl/<Go 1.24.7 Go Version for your CPU>.tar.gz
 sudo tar -C /usr/local -xzf go1.17.13.linux-amd64.tar.gz
 ```
 
