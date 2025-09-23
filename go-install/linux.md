@@ -1,5 +1,9 @@
 # Personal Linux setup instructions
 
+### **************************************************
+### If GoLand wont start ... Update everything: run `sudo apt-get update` and then run `sudo apt-get upgrade`
+### **************************************************
+
 ## Option 1: Setup instructions for most Linux installations
 
 1. Run the following commands in terminal:
