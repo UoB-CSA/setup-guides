@@ -64,7 +64,7 @@ INSTALL THE CORRECT VERSION OF GOLANG
 wget https://go.dev/dl/<Go 1.24.7 Go Version for your CPU>.tar.gz
 sudo tar -C /usr/local -xzf <Go 1.24.7 Go Version for your CPU>.tar.gz
 ```
-Note your code must compile with Go 1.17 so do not use language features introduced since then - generics are not allowed for example
+Note your code must compile with Go 1.17 (you can use the latest version day to day though) so do not use language features introduced since then - generics are not allowed for example
 
 2. Open your `.bashrc` file (`~/.bashrc`) in your editor of choice. Add the following lines to the bottom of the file:
 
