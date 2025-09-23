@@ -57,7 +57,7 @@ INSTALL THE CORRECT VERSION OF GOLANG
 1. Run the following commands in terminal:
 
 ```bash
-wget https://dl.google.com/go/<Go 1.24.7 Go Version for your CPU>.tar.gz
+wget https://go.dev/dl/<Go 1.24.7 Go Version for your CPU>.tar.gz
 sudo tar -C /usr/local -xzf <Go 1.24.7 Go Version for your CPU>.tar.gz
 ```
 Note your code must compile with Go 1.17 so do not use language features introduced since then - generics are not allowed for example
