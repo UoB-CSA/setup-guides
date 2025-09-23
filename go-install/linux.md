@@ -19,7 +19,7 @@ sudo tar -C /usr/local -xzf go1.17.13.linux-amd64.tar.gz
 wget https://dl.google.com/go/<Go 1.24.7 Go Version for your CPU>.tar.gz
 sudo tar -C /usr/local -xzf <Go 1.24.7 Go Version for your CPU>.tar.gz
 ```
-Note your code must compile with Go 1.17 so do not use language features introduced since then - generics are not allowed for example
+Note your code must compile with Go 1.17 (you can use the latest version day to day though) so do not use language features introduced since then - generics are not allowed for example
 
 3. Save the file and exit.
 
