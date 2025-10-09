@@ -6,17 +6,17 @@ This will help you setup an instance on AWS (**Just ingore, click OK on pop-ups 
 
 <img src="content/aws1.png" alt="drawing" width="640"/>
 
-* Click "Modules" (drawn around by hand):
+* Click "Modules" (red arrow):
 
-<img src="content/aws2.png" alt="drawing" width="640"/>
+<img src="content/2.png" alt="drawing" width="640"/>
 
-* Click "Learner Lab"
+* Click "Learner Lab" (red arrow):
 
-<img src="content/aws3.png" alt="drawing" width="640"/>
+<img src="content/3.png" alt="drawing" width="640"/>
 
 * Click "Start Lab"
 
-<img src="content/aws4.png" alt="drawing" width="640"/>
+<img src="content/4.png" alt="drawing" width="640"/>
 
 * Click the (now green not red) AWS link (drawn around by hand):
 
