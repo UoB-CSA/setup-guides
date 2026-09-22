@@ -16,8 +16,8 @@ sudo tar -C /usr/local -xzf go1.17.13.linux-amd64.tar.gz
 2. Open your `.bashrc` file (`~/.bashrc`) in your editor of choice. Add the following lines to the bottom of the file:
 
 ```bash
-wget https://dl.google.com/go/<Go 1.24.7 Go Version for your CPU>.tar.gz
-sudo tar -C /usr/local -xzf <Go 1.24.7 Go Version for your CPU>.tar.gz
+export GOPATH="$HOME/go"
+export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 ```
 Note your code must compile with Go 1.17 (you can use the latest version day to day though) so do not use language features introduced since then - generics are not allowed for example
 
